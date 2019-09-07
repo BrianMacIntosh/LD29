@@ -1,0 +1,98 @@
+html
+{
+	width: 100%;
+	height: 100%;
+	font-family: verdana;
+}
+
+body
+{
+	margin: 0 20px 0 20px;
+	background-color: black;
+	font-family: verdana;
+}
+
+#homediv
+{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#canvasDiv
+{
+	position: fixed;
+	width: 1000px;
+	height: 700px;
+	padding: 0 0 0 0;
+	left: -500px;
+	margin-left: 50%;
+	overflow: hidden;
+	z-index: -1;
+	cursor: none;
+	
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
+	-o-user-select: none; 
+	user-select: none;
+}
+
+.speechBox
+{
+	position: absolute;
+	width: 100px;
+	font-size: small;
+	padding: 6px 6px 6px 6px;
+	border: 1px solid black;
+	border-radius: 7px;
+	z-index: 1;
+	background-color: white;
+	color: black;
+}
+
+#interactText
+{
+	position: absolute;
+	width: 100px;
+	font-size: medium;
+	z-index: 1;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+#moneyLabel
+{
+	position: absolute;
+	font-size: x-large;
+	font-weight: bold;
+	z-index: 1;
+	left: 10px;
+	top: 10px;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+#creditLabel
+{
+	position: absolute;
+	margin-left: 50%;
+	left: -250px;
+	top: 10px;
+	width: 500px;
+	font-size: x-small;
+	color: black;
+	z-index: 1;
+}
+
+#musicLabel
+{
+	position: absolute;
+	font-size: medium;
+	z-index: 1;
+	top: 10px;
+	right: 10px;
+	color: white;
+	text-shadow: 1px 1px black;
+}

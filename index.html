@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>The Legend of the Thunder Fish</title>
+
+<meta property="og:title" content="The Legend of the Thunder Fish">
+<meta property="og:url" content="http://brianmacintosh.com/ld29/">
+<meta property="og:site_name" content="Games by Brian MacIntosh">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://brianmacintosh.com/projects/ld29/og_icon.png">
+<meta property="og:description" content="A game about life as a submarine fisherman. Make your living catching fish in the great blue sea, interact with friendly townsfolk, and explore the unknown. ">
+
+<link rel="canonical" href="http://brianmacintosh.com/ld29/" />
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<link rel="image_src" href="http://brianmacintosh.com/projects/ld29/og_icon.png" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<meta name="keywords" content="beneath the surface, thunder fish, ludum dare, brian macintosh, video game, game, html5, javascript">
+<meta name="description" content="A game about life as a submarine fisherman. Make your living catching fish in the great blue sea, interact with friendly townsfolk, and explore the unknown. ">
+
+<script src="script/three.min.js" type="text/javascript"></script>
+<script src="script/THREEx.KeyboardState.js" type="text/javascript"></script>
+<script src="script/mouse.js" type="text/javascript"></script>
+<script src="script/Vector2.js" type="text/javascript"></script>
+<script src="script/hitbox.js" type="text/javascript"></script>
+<script src="script/screenshake.js" type="text/javascript"></script>
+<script src="script/fish.js" type="text/javascript"></script>
+<script src="script/game.js" type="text/javascript"></script>
+<script src="script/townman.js" type="text/javascript"></script>
+<!--<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-36013541-1', 'brianmacintosh.com');
+	ga('send', 'pageview');
+</script>-->
+</head>
+
+<body onload="gameAttachDOM()">
+<div id="homediv"><a href="/" target="_blank"><img src="/media/title_penguin.png" height="64" alt="Penguin in a TV"/></a></div>
+<div id="canvasDiv">
+	<noscript>You need Javascript enabled to play the game!</noscript>
+	<div id="interactText"></div>
+	<div id="moneyLabel">$0</div>
+	<div id="creditLabel">Ludum Dare #29 :: A game by Brian MacIntosh and Justin Britch :: Music: NGXMusical</div>
+	<div id="musicLabel">[M]:Toggle Audio</div>
+</div>
+<br/>
+</body>
+
+</html>
